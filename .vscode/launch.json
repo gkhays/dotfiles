@@ -35,7 +35,7 @@
             "vmArgs": [
                 "-XX:+HeapDumpOnOutOfMemoryError", 
                 "-XX:HeapDumpPath=${workspaceFolder}/gc.hprof",
-                "-Djavax.net.ssl:handshake"
+                "-Djavax.net.debug.ssl:handshake:verbose"
             ]
         }
     ]
